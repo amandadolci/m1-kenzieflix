@@ -1,0 +1,120 @@
+body {
+  background-color: #121214;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 100;
+}
+.container-pai {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 45px;
+}
+.container-pai div {
+  margin-bottom: 20px;
+}
+.container-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+.container-titulo {
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: white;
+}
+.container-lista {
+  max-width: 700px;
+  margin-bottom: 25px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+li {
+  width: 160px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 15px;
+}
+.perfis {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.perfis-img {
+  width: 160px;
+  height: 160px;
+}
+.perfis-texto {
+  color: #9c9c9c;
+  font-size: medium;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.perfis:hover .perfis-img {
+  border: solid white 1px;
+  border-radius: 7px;
+  transition: 500ms;
+  box-sizing: border-box;
+}
+.perfis:hover .perfis-texto {
+  color: white;
+  transition: 500ms;
+}
+.addprofile-a {
+  background-color: #1e1e20;
+  opacity: 50%;
+  width: 160px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+.addprofile-img {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.perfis:hover .addprofile-a {
+  border: solid white 1px;
+  border-radius: 7px;
+  opacity: 100%;
+  transition: 500ms;
+  box-sizing: border-box;
+}
+button {
+  display: block;
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+  border: solid white;
+  border-radius: 7px;
+  background-color: #121214;
+  margin: 5px;
+  padding: 12px 40px 12px 40px;
+  text-align: center;
+}
+button:hover {
+  color: #121214;
+  background-color: white;
+  transition: 500ms;
+}
